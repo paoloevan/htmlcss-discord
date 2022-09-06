@@ -10,6 +10,10 @@ body, button {
     font-family: 'Montserrat', sans-serif;
 }
 
+button {
+    margin: 0 0.5rem;
+}
+
 /* #endregion */
 
 /* #region Utilities */
@@ -102,10 +106,6 @@ body, button {
     height: 500px;
 }
 
-footer {
-    background-color: rgba(0, 0, 0, 0.658);
-}
-
 .debug .end-footer {
     height: 50px;
 }
@@ -190,7 +190,7 @@ header button {
 }
 /* #endregion */
 
-/* Main */
+/* #region Main */
 .background {
     background-image: url(./img/jumbo.png);
     background-size: cover;
@@ -286,8 +286,26 @@ header button {
     font-weight: 500;
     font-size: 1rem;
 }
+/* #endregion Main */
 
+/* Footer */
 
+footer {
+    background-color: var(--disc-darker);
+}
+
+footer > .row {
+    padding-top: 3rem;
+}
+
+.title_footer {
+    color: var(--disc-text);
+}
+
+.main_footer {
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 
 
