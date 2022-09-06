@@ -42,6 +42,10 @@ button {
 
 }
 
+.background-grey {
+    background-color: var(--disc-grey);
+}
+
 /* #endregion */
 
 /* #region Debug */
@@ -270,8 +274,7 @@ header button {
 
 .last-section {
     text-align: center;
-    padding-top: 5rem;
-    margin-bottom: 5rem;
+    padding: 5rem;
 }
 
 .adventure {
@@ -364,3 +367,9 @@ hr {
     padding-bottom: 1rem;
 }
 /* #endregion */
+
+.wave {
+    width: 100%;
+    height: 5rem;
+    filter: invert(100%) sepia(36%) saturate(80%) hue-rotate(154deg) brightness(111%) contrast(92%);
+}
