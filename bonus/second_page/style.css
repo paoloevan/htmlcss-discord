@@ -223,7 +223,7 @@ header button {
 
 /* #region Main */
 .background {
-    background-image: url(./img/jumbo.png);
+    background-image: url(./img/nitro2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 30rem;
@@ -237,7 +237,7 @@ header button {
     width: 50%;
     margin: auto;
     color: white;
-    margin: 6rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 2rem;
 }
 
 .title > div {
@@ -249,9 +249,9 @@ header button {
 
 .title > p {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -265,15 +265,16 @@ header button {
     font-size: 1rem;
 }
 
-.open_browser {
-    background-color: rgb(37, 36, 36);
-    color: white;
+.dw_mac {
+    color: black;
+    background-color: white;
     border: none;
     padding: 15px;
     border-radius: 25px;
     font-weight: 500;
     font-size: 1rem;
 }
+
 
 .text-right {
     padding: 5rem 0;
