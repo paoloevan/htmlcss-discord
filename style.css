@@ -26,7 +26,6 @@ button {
 
 .row {
     display: flex;
-    align-items: center;
 }
 
 .row-footer {
@@ -293,6 +292,8 @@ header button {
 footer {
     background-color: var(--disc-darker);
     color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 footer > .row {
@@ -332,4 +333,13 @@ footer > .row {
     font-size: 1.5rem;
 }
 
+.text_color_footer {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.text_footer {
+    margin-bottom: 2rem;
+}
 
