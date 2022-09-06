@@ -18,7 +18,7 @@ button {
 
 /* #region Utilities */
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
 }
@@ -226,7 +226,7 @@ header button {
     background-image: url(./img/nitro2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 40rem;
 }
 
 .title img {
@@ -283,8 +283,9 @@ header button {
 }
 
 .text > div {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
     margin-bottom: 2rem;
 }
 
