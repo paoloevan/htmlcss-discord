@@ -160,13 +160,17 @@ button {
 header {
     background-color: var(--disc-header);
     padding: 10px 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
 }
 
 .row-header {
     display: flex;
     justify-content: space-evenly;
+}
+
+header nav {
+    padding-top: 1rem;
 }
 
 a {
@@ -184,7 +188,7 @@ header button {
     border: none;
     padding: 15px;
     border-radius: 25px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
 }
 /* #endregion */
@@ -287,7 +291,7 @@ header button {
 }
 /* #endregion Main */
 
-/* Footer */
+/* #region Footer */
 
 footer {
     background-color: var(--disc-darker);
@@ -343,3 +347,15 @@ footer > .row {
     margin-bottom: 2rem;
 }
 
+hr {
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color: var(--disc-text);
+    margin-bottom: 1rem;
+}
+
+.end-footer {
+    padding-bottom: 1rem;
+}
+/* #endregion */
